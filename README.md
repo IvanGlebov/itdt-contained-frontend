@@ -3,6 +3,8 @@
 ## About
 
 This project was created for testing deployment of multiple docker containers inside of Kubernetes or other containers management system.
+[Link to introduction-to-distributed-technologies](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/)
+
 ## Available Scripts
 
 ### `docker-compose up --build -d`
