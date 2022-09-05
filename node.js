@@ -17,9 +17,9 @@ let server = ''
 process.env['REACT_APP_CONTAINER_NAME'] = os.hostname()
 process.env['REACT_APP_CONTAINER_IP'] = ip.address()
 
-console.log('test')
 async.series([
     () => {
+        console.log('Builing frontend')
         execSync('npm run build')
         console.log('build finished')
 
